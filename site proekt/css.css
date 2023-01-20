@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap');
+:root {
+    --color1: red;
+    --color2: white;
+    --color3: lightgrey;
+
+}
+body {
+    background-color: lightgrey;
+    margin:0;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar {
+    overflow: hidden;/*nikva ideq*/
+    background-color: #ffffff;/*cvqt*/
+    top: 0;/*visochina*/
+    width: 100%;/*shirochina*/
+    height: 80px;
+    align-items: right; 
+    padding: 0;
+    position:fixed;
+    left:0;
+    z-index: 9999; 
+}
+
+.navbar a {
+    float: left;/*kak da se razpolagat(bez nego home i tn shte sa edno pod drugo)*/
+    position: relative;
+    left:135px;
+   
+    color: #FF0A0A;
+    text-align: center;/*centrira ama nz tochno kvo haha*/
+    padding: 0px 20px;/*debelina*/
+    text-decoration: none;/*mn vazhno shtoto inache stoqt podchertani*/
+    font-size: 26px;
+   
+}
+.navbar-logo{
+    right:75%;
+    top:0%;
+    position: absolute;
+}
+ .hover {
+     margin-top: 25px;
+}
+ .hover:hover {
+    color: white;
+    border-radius: 25px;
+}  
+.navbar-logo:hover{
+    background-color:red;
+}
+.navbar a:hover {
+    background-color: var(--color1);
+}
+
+
+/* .main {
+padding: 16px;
+margin-top: 30px;
+height: 1500px;  /*tva maj ne e nuzhno ama za vseki sluchaj
+}*/
+
+
+.pravougulnik1 {
+    top: 130px;
+    width: 700px;
+    height: 400px;
+    background-color:black;
+    position: absolute;/*magiq*/
+    left: 100px;    
+    
+}
+
+.logo-image{
+    /* width: 46px; */
+    /* height: 46px;  */
+    /* border-radius: 50%; */
+    margin-top: 0px;
+    z-index: 1;
+    left:50px;
+}
+.logo-image:hover{
+  background-color: white;
+}
+/* .home-photo1{
+    background-color:white;
+    position:absolute;
+    top:148px;
+    height:150px;
+    width:150px;
+    left:930px;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home-photo2{
+    background-color:white;
+    position:absolute;
+    top:148px;
+    height:150px;
+    width:150px;
+    left:1130px;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home-photo3{
+    background-color:white;
+    position:absolute;
+    top:348px;
+    height:150px;
+    width:150px;
+    left:930px;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home-photo4{
+    background-color:white;
+    position:absolute;
+    top:348px;
+    height:150px;
+    width:150px;
+    left:1130px;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home-photo{
+    height:140px;
+    width:140px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+} */
+
+.home1{
+    background-color:white;
+    position:absolute;
+    top:900px;
+    height:450px;
+    width:580px;
+    left:25%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home2{
+    background-color:white;
+    position:absolute;
+    top:900px;
+    height:450px;
+    width:580px;
+    left:75%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home-photo{
+    width:fit-content;
+    height:350px;
+    width:480px;
+    /* border:3px solid black; */
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.home-photo:hover{
+    transform:scale(1.07) translate(-50%);
+    
+}
+.home-button{
+    border-radius:10px;
+    position:absolute;
+    top:360px;
+    width:90px;
+    height:30px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+.home-button-text{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.home-name{
+    font-family: 'Lobster', cursive;
+    position:absolute;
+    text-decoration:none;
+    top:395px;
+    font-size:40px;
+    left:20px;
+    color:black;
+}
+.home-short-info{
+    top:450px;
+    position:absolute;
+    font-family: 'Roboto Slab', serif;
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    left:20px;
+    right:20px;
+}
+/* .home-button-read-more{
+    border-radius:10px;
+    position:absolute;
+    top:590px;
+    width:110px;
+    height:40px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+.home-button-text-read-more{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:fit-content;
+} */
+
+.home3{
+    background-color:white;
+    position:absolute;
+    top:1400px;
+    height:250px;
+    width:250px;
+    left:14%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home4{
+    background-color:white;
+    position:absolute;
+    top:1400px;
+    height:250px;
+    width:250px;
+    left:38%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home5{
+    background-color:white;
+    position:absolute;
+    top:1400px;
+    height:250px;
+    width:250px;
+    left:62%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home6{
+    background-color:white;
+    position:absolute;
+    top:1400px;
+    height:250px;
+    width:250px;
+    left:86%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.home-league-photo{
+    width:fit-content;
+    height:150px;
+    width:150px;
+    /* border:3px solid black; */
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.home-league-photo:hover{
+    transform:scale(1.02) translate(-50%);
+    
+}
+.home-league-button{
+    border-radius:10px;
+    position:absolute;
+    top:160px;
+    width:110px;
+    height:30px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+.home-league-button-text{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.home-league-name{
+    font-family: 'Lobster', cursive;
+    position:absolute;
+    text-decoration:none;
+    top:195px;
+    font-size:40px;
+    left:20px;
+    color:black;
+}
+
+.cl{
+    background-color:white;
+    position:absolute;
+    left:6%;
+    top:150px;
+    height:220px;
+    width:1200px;
+}
+.uel{
+    background-color:white;
+    position:absolute;
+    left:6%;
+    top:420px;
+    height:220px;
+    width:1200px;
+}
+.uecl{
+    background-color:white;
+    position:absolute;
+    left:6%;
+    top:690px;
+    height:220px;
+    width:1200px;
+}
+.fa-cup{
+    background-color:white;
+    position:absolute;
+    left:6%;
+    top:960px;
+    height:220px;
+    width:1200px;
+}
+.name-field{
+    background-color:  grey;
+    width:1200px;
+    height:52px;
+    position:absolute;
+}
+.name-field-text{
+    font-family: 'Lobster', cursive;
+    position:absolute;
+    text-decoration:none;
+    font-size:37px;
+    left:20px;
+    color:#153B50;
+}
+.tournaments-button-read-more{
+    border-radius:10px;
+    position:absolute;
+    top:180px;
+    width:85px;
+    height:32px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+.tournaments-button-read-more-text{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:fit-content;
+    font-size:14px;
+}
+.short-info{
+    top:100px;
+    position:absolute;
+    font-family: 'Roboto Slab', serif;
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    left:20px;
+    right:20px;
+    width:87%;
+}
+.tournament-logo{
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    left:87%;
+    top:58px;
+}
+.tournament-logo-uecl{
+    position:absolute;
+    height: 150px;
+    width: 120px;
+    left:89%;
+    top:58px;
+}
+.tournament-logo:hover{
+    transform:scale(1.1) ;
+}
+.name-field-text:hover{
+    transform:scale(1.05) 
+}
+.tournament-logo-uecl:hover{
+    transform:scale(1.1) ;
+}
+.pl{
+    background-color:white;
+    position:absolute;
+    top:150px;
+    height:400px;
+    width:400px;
+    left:49.3%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+
+.seria-a{
+    background-color:white;
+    position:absolute;
+    top:650px;
+    height:400px;
+    width:400px;
+    left:33%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.la-liga{
+    background-color:white;
+    position:absolute;
+    top:650px;
+    height:400px;
+    width:400px;
+    left:66%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+
+.bundesliga{
+    background-color:white;
+    position:absolute;
+    top:1150px;
+    height:400px;
+    width:400px;
+    left:33%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.eredivisie{
+    background-color:white;
+    position:absolute;
+    top:1150px;
+    height:400px;
+    width:400px;
+    left:66%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.league-logo{
+    height:230px;
+    width:230px;
+    /* border:3px solid black; */
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.league-button{
+    border-radius:10px;
+    position:absolute;
+    top:210px;
+    width:80px;
+    height:25px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+    
+}
+.league-logo-bundesliga{
+    height:200px;
+    width:200px;
+    top:10px;
+    /* border:3px solid black; */
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.league-logo-la-liga{
+    height:180px;
+    width:190px;
+    top:15px;
+    /* border:3px solid black; */
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.league-button-read-more{
+    border-radius:10px;
+    position:absolute;
+    top:355px;
+    width:85px;
+    height:32px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+.league-button-read-more-text{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:fit-content;
+    font-size:14px;
+}
+.league-name{
+    font-family: 'Lobster', cursive;
+    position:absolute;
+    text-decoration:none;
+    top:235px;
+    font-size:27px;
+    left:20px;
+    color:black;
+}
+.league-logo:hover{
+    transform:scale(1.07) translate(-50%);
+}
+.league-logo-bundesliga:hover{
+    transform:scale(1.07) translate(-50%);
+}
+.league-logo-la-liga:hover{
+    transform:scale(1.07) translate(-50%);
+}
+.player1{
+    background-color:white;
+    position:absolute;
+    top:150px;
+    height:650px;
+    width:580px;
+    left:25%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.player2{
+    background-color:white;
+    position:absolute;
+    top:150px;
+    height:650px;
+    width:580px;
+    left:75%;
+    transform:translateX(-50%);
+    border:1px solid grey;
+}
+.player-photo{
+    width:fit-content;
+    height:350px;
+    width:480px;
+    /* border:3px solid black; */
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.player-photo:hover{
+    transform:scale(1.07) translate(-48%);
+    
+}
+.player-button{
+    border-radius:10px;
+    position:absolute;
+    top:360px;
+    width:90px;
+    height:30px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+.player-button-text{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.player-name{
+    font-family: 'Lobster', cursive;
+    position:absolute;
+    text-decoration:none;
+    top:395px;
+    font-size:40px;
+    left:20px;
+    color:black;
+}
+.player-name:hover{
+    transform:scale(1.07)
+}
+.player-short-info{
+    top:450px;
+    position:absolute;
+    font-family: 'Roboto Slab', serif;
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    left:20px;
+    right:20px;
+}
+.player-button-read-more{
+    border-radius:10px;
+    position:absolute;
+    top:590px;
+    width:110px;
+    height:40px;
+    left:20px;
+    background-color:red;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+.player-button-text-read-more{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:fit-content;
+}
+.h1about {
+    color: red;
+    top:130px;
+    position:absolute;
+    transform: translateX(-50%);
+    left:50%;
+    font-size:40px;
+}
+
+.h2about {
+    color: red;
+    top:250px;
+    position:absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size:27px;
+}
+
+.creator-card {
+    position: absolute;
+    left: 33%;
+    transform: translateX(-50%);
+    top: 400px;
+    width: 350px;
+    height: 350px;
+    background-color: var(--color1);
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0,0,0.5);
+}
+.creator-photo{
+    border-radius:50%;
+    position:absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+
+    width: 220px;
+    height: 220px;
+}
+.card-name{
+    position:absolute;
+    top: 280px;
+    text-align:center;
+    left: 50%;
+    transform: translateX(-50%);
+    color:white;
+    font-size:30px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.card-name a{
+    text-decoration:none;
+    color:white;
+}
+
+.creator-photo:hover{
+    content: url(./snimki/ucl-logo.png");
+}
+.creator-card2 {
+    position: absolute;
+    left: 66%;
+    transform: translateX(-50%);
+    top: 400px;
+    width: 350px;
+    height: 350px;
+    background-color: var(--color1);
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0,0,0.5);
+}
+.creator-photo2{
+    border-radius:50%;
+    position:absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+
+    width: 220px;
+    height: 220px;
+}
+
+.creator-photo2:hover{
+    content:url(./snimki/ucl-logo.png");
+}
+.contact-us{
+    left: 50%;
+    transform:translate(-50%);
+    position:absolute;
+    top:1400px;
+    height:450px;
+    width:450px;
+    background-color:red;
+    border-radius: 10px;
+    padding:0;
+}
+.contacts{
+    text-align:center;
+    color:white;
+    font-size:25px;
+    display:block;
+    padding:0px 20px;
+}
+.contacts-h{
+    text-align:center;
+    color:white;
+    font-size:40px;
+    display:block;
+    padding:0px 20px;
+   
+}
+.footer {
+    width: 100%;
+    height: 420px;
+    background-color: var(--color2);
+    position:absolute;
+    bottom:0px;
+    top:2000px;
+    left:0px;
+}
+.footer_lqvo{
+     left:33%;
+     position:absolute;
+     padding: 0;
+     top:150px;
+}
+.footer_lqvo a {
+    display: block;/*nikva ideq*/
+    color: #FF0A0A;
+    text-align: center;/*centrira ama nz tochno kvo haha*/
+    padding: 0px 20px;/*debelina*/
+    text-decoration: none;/*mn vazhno shtoto inache stoqt podchertani*/
+    font-size: 30px;
+   
+}
+.footer_dqsno{
+    right:33%;
+    position:absolute;
+    padding: 0;
+    top:150px;
+}
+.footer_dqsno a {
+    display: block;/*nikva ideq*/
+    color: #FF0A0A;
+    text-align: center;/*centrira ama nz tochno kvo haha*/
+    padding: 0px 20px;/*debelina*/
+    text-decoration: none;/*mn vazhno shtoto inache stoqt podchertani*/
+    font-size: 30px;
+   
+}
+.logo-footer {
+    display: block;
+    top:355px;
+    width: 50%;
+    height: 60px;
+    width: 118px;
+    position:absolute;
+}
+.copyright{
+    top: 365px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    width: 1000px;
+}
+.copyright_text{
+    text-align:center;
+    left: 50%;
+    transform: translateX(-50%);
+    position:absolute;
+    font-size:15px;
+}
+
+body {
+    margin: 10%;
+     margin-left:20%;
+  }
+  
+
+
+  #slider {
+    position: absolute;
+    width: 999px;
+    height: 527px;
+    left:50%;
+    transform:translateX(-50%);
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  #slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+  #slider ul li {
+    position: relative;
+    height: 100%;
+   
+    float: left;
+  }
+  #slider ul li img{
+    width: 999px;
+    height: 527px;
+  }
+  #slider ul li img:hover{
+    transform:scale(1.02);
+  }
+  #slider photos logos{
+   
+  }
+  #slider #prev, #slider #next {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+  }
+  #slider #prev:hover, #slider #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+  }
+  #slider #prev {
+    left: 10px;
+  }
+  #slider #next {
+    right: 10px;
+  }
+  .dybala1{
+	text-decoration:none;
+
+    left:20px;
+    right:20px;
+    width:78%;
+}
+.dybala1_snimka{
+	position:absolute;
+    height: 360px;
+    width: 260px;
+    left:0%;
+	border-radius:25px;
+	background-color:lightgrey;
+}
+.text-center{
+	left:27%;
+	right:27%;
+	position:absolute;
+	height:850px;
+	background-color:lightgrey;
+
+	color:black;
+}
+.stats1{
+	text-decoration:none;
+    color:black;
+    left:52%;
+	position:absolute;
+	top:265px;
+}
+.stats2{
+	text-decoration:none;
+    color:black;
+    left:52%;
+	position:absolute;
+	top:400px;
+}
+.stats3{
+	text-decoration:none;
+    color:black;
+    left:52%;
+	position:absolute;
+	top:530px;
+}
+.cvqt1{
+	background-color:#e0e0eb;
+	padding-left:10px;
+	border-radius:25px;
+    position:absolute;
+	left:50%;
+	top:235px;
+	width:320px;
+	height:27px;
+}
+.cvqt2{
+	background-color:#e0e0eb;
+	padding-left:10px;
+	border-radius:25px;
+    position:absolute;
+	left:50%;
+	top:370px;
+	width:320px;
+	height:27px;
+}
+.cvqt3{
+	background-color:#e0e0eb;
+	padding-left:10px;
+	border-radius:25px;
+    position:absolute;
+	left:50%;
+	top:500px;
+	width:320px;
+	height:27px;
+}

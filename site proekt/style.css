@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap%27');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap%27');
+body{
+	font-family: 'Roboto Slab', serif;
+	background-color:lightgrey;
+}
+.dybala1{
+	text-decoration:none;
+
+    left:20px;
+    right:20px;
+    width:78%;
+}
+.dybala1_snimka{
+	position:absolute;
+    height: 360px;
+    width: 260px;
+    left:0%;
+	border-radius:25px;
+	background-color:lightgrey;
+}
+.text-center{
+	left:32%;
+	right:32%;
+	position:absolute;
+	height:850px;
+	background-color:lightgrey;
+	top:100px;
+	color:black;
+}
+.stats1{
+	text-decoration:none;
+    color:black;
+    left:52%;
+	position:absolute;
+	top:270px;
+}
+.stats2{
+	text-decoration:none;
+    color:black;
+    left:52%;
+	position:absolute;
+	top:400px;
+}
+.stats3{
+	text-decoration:none;
+    color:black;
+    left:52%;
+	position:absolute;
+	top:530px;
+}
+.cvqt1{
+	background-color:#e0e0eb;
+	padding-left:10px;
+	border-radius:25px;
+    position:absolute;
+	left:50%;
+	top:240px;
+	width:280px;
+	height:27px;
+}
+.cvqt2{
+	background-color:#e0e0eb;
+	padding-left:10px;
+	border-radius:25px;
+    position:absolute;
+	left:50%;
+	top:370px;
+	width:280px;
+	height:27px;
+}
+.cvqt3{
+	background-color:#e0e0eb;
+	padding-left:10px;
+	border-radius:25px;
+    position:absolute;
+	left:50%;
+	top:500px;
+	width:280px;
+	height:27px;
+}
